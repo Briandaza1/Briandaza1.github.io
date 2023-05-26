@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solicitud de Paz y salvo</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+    <link rel="shortcut icon" type="img/x-icon" href="img/NTT_DATA.jpg">
+  
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <style>
+     .formulario .form-horizontal h3{
+      text-align: center;
+      margin-bottom: 30px;
+      /*font-family: "Roboto", bold;*/
+    }
+    </style>
+    
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg  static-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="img/Nttdata logo.png" alt="Logo Ntt Data">
+        </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">CERRAR SESIÓN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+    
+
+  <div class="formulario">
+    
+		<form name="miFormulario1" class="form-horizontal " method="post" action="">
+      <h3 class="mb-0"><strong>Formulario, solicitud de paz y salvo</strong></h3>
+      <br>
+
+      <div class="form-group">
+		    <label class="col-xs-2 control-label">Tipo de documento</label>
+		    <div class="col-xs-10">
+          <select name="Servicios"  class="form-control input-sm col-xs-1 " id="idSeguimiento" tabindex="1">		
+            <option value="Cédula de Ciudadanía">Cédula de Ciudadanía</option>		
+            <option value="Cédula de Extranjería">Cédula de Extranjería</option>	
+            <option value="Pasaporte">Pasaporte</option>	
+            <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+            <option value="Registro Civil">Registro Civil</option>
+            <option value="Carné Diplomático">Carné Diplomático</option>
+          </select>	
+		    </div>
+      </div>
+
+      <div class="form-group">
+		    <label class="col-xs-2 control-label">Número de identificación</label>
+		    <div class="col-xs-10">
+		      <input type="number" id="NumId" name="NumId" class="form-control input-xs" tabindex="2" required>
+		    </div>
+		  </div>
+
+		  <div class="form-group">
+		    <label class="col-xs-2 control-label">Nombres</label>
+		    <div class="col-xs-10">
+		      <input type="text" id="NombreCompleto" name="NombreCompleto" class="form-control input-xs" tabindex="3" required>
+		    </div>
+		  </div>
+      <div class="form-group">
+		    <label class="col-xs-2 control-label">Apellidos</label>
+		    <div class="col-xs-10">
+		      <input type="text" id="Apellidos1" name="Apellidos" class="form-control input-xs" tabindex="4" required>
+		    </div>
+		  </div>
+
+		  <div class="form-group">
+		    <label class="col-xs-2 control-label">Correo Electrónico</label>
+		    <div class="col-xs-10">
+		      <input type="email" id="CorreoElectronico" name="CorreoElectronico" class="form-control input-xs" tabindex="6" required>
+		    </div>
+      </div>
+      
+      <div class="form-group">
+		    <label class="col-xs-2 control-label">Elige el producto</label>
+		    <div class="col-xs-10">
+          <select name="Cantidad de meses"  class="form-control input-sm col-xs-1 " id="idProducto" tabindex="7">		
+            <option value="Credito Express">Credito Express</option>		
+            <option value="Tarjeta de crédito">Tarjeta de crédito</option>	
+          </select>	
+		    </div>
+      </div>
+
+
+      <input type="submit" id="btn_enviar" class="btn_enviar" value="Enviar" href="MenuPazySalvo.html">
+     
+    </form>
+    
+  </div>
+    
+</body>
+</html>

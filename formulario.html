@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+  <title>Everis | Bizagi + AA</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <link rel="shortcut icon" type="img/x-icon" href="img/NTT_DATA.jpg">
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body> 
+
+	<nav class="navbar navbar-expand-lg  static-top">
+	  <div class="container">
+	    <a class="navbar-brand" href="index.html">
+	          <img class="logo" src="img/Nttdata logo.png" alt="Logo Ntt Data">
+	        </a>
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+	          <span class="navbar-toggler-icon"></span>
+	        </button>
+	    <div class="collapse navbar-collapse" id="navbarResponsive">
+	      <ul class="navbar-nav ml-auto">
+	        <li class="nav-item">
+	          <a class="nav-link" href="index.html">INICIO</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">NOSOTROS</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="MenuSolicitud.html">SOLICITUD</a>
+			</li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">CONTACTO</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<div class="formulario">
+		<form name="miFormulario1" class="form-horizontal ">
+		  <div class="form-group">
+		    <label class="col-xs-2 control-label">Codigo del Producto:</label>
+		    <div class="col-xs-10">
+		      <input type="text" id="CodigoProducto" name="CodigoProducto" class="form-control input-xs" tabindex="1">
+		    </div>
+		  </div>
+
+
+		  <div class="form-group">
+		    <label class="col-xs-2 control-label">Estado del Producto:</label>
+		    <div class="col-xs-3">
+		      <select class="form-control input-sm col-xs-1 " id="idSeguimiento" tabindex="2">
+				<option>Seleccione opción</option>
+				<option>Activo</option>
+				<option>Cancelado</option>
+		      </select>
+		    </div>
+
+		  <div class="form-group">
+		    <label class="col-xs-2 control-label">Identificación del Cliente:</label>
+		    <div class="col-xs-10">
+		      <input type="text" id="IdCliente" name="IdCliente" class="form-control input-xs" tabindex="3">
+		    </div>
+		  </div>
+
+		  <div class="form-group">
+		    <label class="col-xs-2 control-label">Identificación Gestor:</label>
+		    <div class="col-xs-10">
+		      <input type="text" id="IdGestor" name="IdGestor" class="form-control input-xs" tabindex="4">
+		    </div>
+		  </div>
+
+		  <div class="form-group">
+		    <label class="col-xs-2 control-label">Identificación del Vendedor:</label>
+		    <div class="col-xs-10">
+		      <input type="text" id="IdVendedor" name="IdVendedor" class="form-control input-xs" tabindex="5">
+		    </div>
+		  </div>
+
+		   <div class="form-group">
+		    <label class="col-xs-2 control-label">Monto Mora:</label>
+		    <div class="col-xs-10">
+		      <input type="text" id="MontoMora" name="MontoMora" class="form-control input-xs" tabindex="6">
+		    </div>
+		  </div>
+
+		   <div class="form-group">
+		    <label class="col-xs-2 control-label">Nombre Producto:</label>
+		    <div class="col-xs-10">
+		      <input type="text" id="NombreProducto" name="NombreProducto" class="form-control input-xs" tabindex="7">
+		    </div>
+		  </div>
+
+		  	<a class="enviar" href="formulario.html" tabindex="8">Enviar</a>
+			
+		  </div>
+		    
+		</form>
+  
+	</div>
+
+ 
+</body>
+</html>

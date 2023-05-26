@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legalización PQR</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" type="img/x-icon" href="img/Logo.png">
+  
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <style>
+     .formulario .form-horizontal h3{
+      text-align: center;
+      margin-bottom: 30px;
+      /*font-family: "Roboto", bold;*/
+    }
+    </style>
+    
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg  static-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="img/Logo.png" alt="Logo Ntt Data">
+        </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif;font-size: 20px;" href="index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif;font-size: 20px;" href="#">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif;font-size: 20px;" href="#">CONTACTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif;font-size: 20px;" href="login.html">CERRAR SESIÓN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+
+  <div class="formulario">
+    
+    <form name="miFormulario1" class="form-horizontal " method="post" action="">
+      <h3 style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif" class="mb-0"><strong>Creación de Factura</strong></h3>
+      <br>
+      <div class="form-group">
+        <label style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif" class="col-xs-2 control-label">Nombres</label>
+        <div class="col-xs-10">
+          <input type="text" id="NombreCompleto" name="NombreCompleto" class="form-control input-xs" tabindex="3" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif" class="col-xs-2 control-label">Dirección</label>
+        <div class="col-xs-10">
+          <input type="text" id="CorreoElectronico" name="CorreoElectronico" class="form-control input-xs" tabindex="6" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif" class="col-xs-2 control-label">Poliza</label>
+        <div class="col-xs-10">
+          <input type="text" id="CorreoElectronico" name="CorreoElectronico" class="form-control input-xs" tabindex="6" required>
+        </div>
+      </div>                  
+      
+      <div class="form-group">
+        <label style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif" class="col-xs-2 control-label">Zona</label>
+        <div class="col-xs-10">
+          <input type="text" id="NumMonto1" name="NumMonto" class="form-control input-xs" tabindex="5" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif" class="col-xs-2 control-label">Periodo Facturado</label>
+        <div class="col-xs-10">
+          <input type="text" id="NumMonto1" name="NumMonto" class="form-control input-xs" tabindex="5" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif" class="col-xs-2 control-label">Tipo de servicio</label>
+        <div class="col-xs-10">
+          <input type="text" id="NumMonto1" name="NumMonto" class="form-control input-xs" tabindex="5" required>
+        </div>
+      </div>            
+
+      <div class="form-group">
+        <label style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif" class="col-xs-2 control-label">Acueducto</label>
+        <div class="col-xs-10">
+          <input type="text" id="CorreoElectronico" name="CorreoElectronico" class="form-control input-xs" tabindex="6" required>
+        </div>
+      </div>
+
+                  <div class="form-group">
+        <label style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif" class="col-xs-2 control-label">Alcantarillado</label>
+        <div class="col-xs-10">
+          <input type="text" id="CorreoElectronico" name="CorreoElectronico" class="form-control input-xs" tabindex="6" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif" class="col-xs-2 control-label">Aseo</label>
+        <div class="col-xs-10">
+          <input type="text" id="CorreoElectronico" name="CorreoElectronico" class="form-control input-xs" tabindex="6" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif" class="col-xs-2 control-label">Otros conceptos</label>
+        <div class="col-xs-10">
+          <input type="text" id="CorreoElectronico" name="CorreoElectronico" class="form-control input-xs" tabindex="6" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif" class="col-xs-2 control-label">Total a Pagar</label>
+        <div class="col-xs-10">
+          <input type="text" id="CorreoElectronico" name="CorreoElectronico" class="form-control input-xs" tabindex="6" required>
+        </div>
+      </div>
+
+
+    
+    <a href="#myModal" style="font-family:'Nimbus Sans L', sans-serif;font-size:'30px'"  class="btn_enviar" data-toggle="modal">Crear</a>
+    </form>
+   
+    </div>
+  </div>
+  </div>
+  <!-- Modal HTML -->
+  <div id="myModal" class="modal fade">
+  <div class="modal-dialog modal-confirm">
+    <div class="modal-content">
+      <div class="modal-header flex-column">
+        <h4 style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif" class="modal-title w-100">Factura creada correctamente.</h4>  
+          <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+      </div>
+      <!--<div class="modal-body">
+        <p style="color:#3f6b90;font-family:'Nimbus Sans L', sans-serif">Legalizado correctamente.</p>
+      </div>-->
+      <div class="modal-footer justify-content-center">
+        <a style="font-family:'Nimbus Sans L', sans-serif" class="btn_enviar" href="MenuSolicitud.html" >Cerrar</a>
+      </div>
+    </div>
+  </div>
+  </div> 
+              
+</body>
+</html>
+</body>
+</html>
